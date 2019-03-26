@@ -1,0 +1,15 @@
+{
+    "path": "/healthcheck",
+    "headers": {
+        "user-agent": "ELB-HealthChecker/2.0"
+    },
+    "isBase64Encoded": false,
+    "requestContext": {
+        "elb": {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-1:448062158292:targetgroup/justin-testing-7/79bb023dfbbafe14"
+        }
+    },
+    "httpMethod": "GET",
+    "queryStringParameters": {},
+    "body": ""
+}

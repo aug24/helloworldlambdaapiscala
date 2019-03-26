@@ -1,0 +1,2 @@
+GET		part		handlers.Part
+GET		user		handlers.User
